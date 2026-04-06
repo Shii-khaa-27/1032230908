@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', sans-serif;
+  background-color: #f5e6d3;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.title {
+  font-size: 36px;
+  color: #5a3e2b;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.card {
+  background-color: #fff8f0;
+  padding: 20px;
+  border-radius: 15px;
+  width: 40%;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+input {
+  width: 90%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #c49a6c;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #a67c52;
+}
+
+.student-item {
+  background: #fdf1e6;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
